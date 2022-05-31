@@ -17,6 +17,9 @@ public class PessoaFisica extends Pessoa{
         CPFInicial.add(7);
         CPFInicial.add(7);
         CPFInicial.add(7);
+        for (i = 10; i = 2) {
+
+        }
         var numero = new SplittableRandom();
 
     }
