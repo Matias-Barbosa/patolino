@@ -7,10 +7,17 @@ public class PessoaFisica extends Pessoa{
 
     public PessoaFisica() {
         this.documento = documento;
-        ArrayList<String> numerosDocumento = new ArrayList<>();
-        numerosDocumento.add("123123123");
+        ArrayList<Integer> CPFInicial = new ArrayList<>();
+        CPFInicial.add(1);
+        CPFInicial.add(1);
+        CPFInicial.add(1);
+        CPFInicial.add(4);
+        CPFInicial.add(4);
+        CPFInicial.add(4);
+        CPFInicial.add(7);
+        CPFInicial.add(7);
+        CPFInicial.add(7);
         var numero = new SplittableRandom();
-        this.documento = numerosDocumento.get(numero.nextInt(0, numerosDocumento.size()));
 
     }
 
