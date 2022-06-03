@@ -12,6 +12,8 @@ public class App {
         F.getProdutos();
         Farmaceutico FT = new Farmaceutico();
         FT.getOfertaDia();
+        FT.getNome();
+        FT.getDocumento();
         System.out.println(P.getNome());
         System.out.println("CPF: " + P.getDocumento());
         System.out.println(F.getProdutos());
