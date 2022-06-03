@@ -13,7 +13,7 @@ public class App {
         Farmaceutico FT = new Farmaceutico();
         FT.getOfertaDia();
         System.out.println(P.getNome());
-        System.out.println(P.getDocumento());
+        System.out.println("CPF: " + P.getDocumento());
         System.out.println(F.getProdutos());
         System.out.println(FT.getOfertaDia());
     }
